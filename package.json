@@ -1,6 +1,9 @@
 {
   "name": "pdf-reader",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
@@ -14,10 +17,7 @@
     "web-vitals": "^0.2.4"
     
   },
-  "engines": {
-    "node": "14.17.5"
-  },
-
+ 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
